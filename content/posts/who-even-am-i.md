@@ -11,13 +11,9 @@ externalLink = ""
 series = []
 +++
 
-#### A Friendly Software Engineer Dedicated to Social Benefit
+#### Friendly Software Engineer Dedicated to Social Benefit
 
 I wanted to do a deep dive into what I mean when I title myself that way. Each of those words was carefully chosen, so buckle up because the semantics train is leaving the station toot toot!
-
-## A
-
-It's just an article. I guess it means that I'm a non-specific engineer, but let's back up before we get lost in an existential crisis.
 
 ## Friendly
 

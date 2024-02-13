@@ -16,7 +16,7 @@ I wanted to do a deep dive into what I mean when I title myself that way. Each o
 
 ## Friendly
 
-I'm not just throwing this on there casually, community and friendship are a core piece of what brings me joy in life, as well as a skill that sets me apart from a lot of other people. I think sociability is an undervalued skill in tech and that creating a feeling of community is critical to what makes a team function well.
+I'm not just throwing this on there casually, community and friendship are a core piece of what brings me joy in life as well as a skill that sets me apart from a lot of other people. I think sociability is an undervalued skill in tech and that creating a feeling of community is critical to what makes a team function well.
 
 Ok, and I'll admit it's a little cute too. Makes me sound like Spider-Man.
 
@@ -24,7 +24,7 @@ Ok, and I'll admit it's a little cute too. Makes me sound like Spider-Man.
 
 I've spent a while reflecting on how to label my skillset. Computer scientist? Programmer? Technologist? But software engineering fits best, and that didn't click for me until I read the book _The Missing README_, which created a clear structure to that set of skills I had been developing at Amazon. Software engineering is applying computer science to the delivery of software applications. It's the whole field of study layered on top of computer science.
 
-I excel at listening and customer service, so I may eventually pivot into more of a business role, like a product manager, but at the same time, I love coding so software engineering fits me best.
+I excel at listening and customer service, so I may eventually explore more of a business role, like a product manager, but at the same time, I love coding so software engineering fits me best.
 
 ## Dedicated to Social Good
 

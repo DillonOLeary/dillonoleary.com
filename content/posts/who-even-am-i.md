@@ -18,7 +18,7 @@ I wanted to do a deep dive into what I mean when I title myself that way. Each o
 
 I'm not just throwing this on there casually, community and friendship are a core piece of what brings me joy in life as well as a skill that sets me apart from a lot of other people. I think sociability is an undervalued skill in tech and that creating a feeling of community is critical to what makes a team function well.
 
-Ok, and I'll admit it's a little cute too. Makes me sound like Spider-Man.
+Ok, and I'll admit it's a little cute too.
 
 ## Software Engineer
 

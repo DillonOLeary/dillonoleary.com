@@ -1,6 +1,7 @@
 +++
 date = 2024-01-25T12:30:32-08:00
 title = "A New Blog"
+draft = true
 +++
 
 Is this personal website just supposed to be a resume? I hope not. But I guess if I link to it on my resume it kind of becomes one. It's certainly my public-facing presentation of myself and I have to keep in mind that the audience is potentially much bigger than when I journal in my notebook.

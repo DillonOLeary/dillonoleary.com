@@ -1,7 +1,7 @@
 ## Example Config file
 baseURL: "https://dillonoleary.com"
-theme: "terminalcv"
-title: "dillonsTerminal"
+theme: "hugo-profile"
+title: "Dillon's Homepage"
 
 params:
   version: '2.0.0'
@@ -38,10 +38,14 @@ params:
   source: true
   #use a ‎ (blank character) if your first character of the ascii art is a whitespace
   greeting: | 
-    ‎    _ _ _ _          ___ _    ___ 
-     __| (_) | |___ _ _ / __| |  |_ _|
-    / _` | | | / _ \ ' \ (__| |__ | | 
-    \__,_|_|_|_\___/_||_\___|____|___|
+    ‎ ___  _ _ _          _                  
+    |   \(_) | |___ _ _ ( )___              
+    | |) | | | / _ \ ' \|/(_-<              
+    |___/|_|_|_\___/_||_| /__/              
+    | || |___ _ __  ___ _ __  __ _ __ _ ___ 
+    | __ / _ \ '  \/ -_) '_ \/ _` / _` / -_)
+    |_||_\___/_|_|_\___| .__/\__,_\__, \___|
+                        |_|        |___/     
 
     Welcome to my terminal-based homepage :)
 

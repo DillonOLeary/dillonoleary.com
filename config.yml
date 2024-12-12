@@ -1,0 +1,222 @@
+## Example Config file
+baseURL: "https://dillonoleary.com"
+theme: "terminalcv"
+title: "dillonsTerminal"
+
+params:
+  version: '2.0.0'
+  description: "Dillon O'Leary's Homepage"
+  prompt:
+    core:
+      text: "user@dillons-terminal"
+      color: 'pink'
+      before: '['
+      beforeColor: 'red'
+      after: '\]'
+      afterColor: 'red'
+      # separator: '-'
+    separator:
+      text: "-"
+      # color: 
+    path: 
+      before: '['
+      beforeColor: 'red'
+      text: '~/home'
+      color: 'blue'
+      after: '\]'
+      afterColor: 'red'
+    extra:
+      text: ": "
+      color: 'orange'
+
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  # useLess: true
+  exitLocation: 'about:blank'
+  source: true
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: | 
+    ‎    _ _ _ _          ___ _    ___ 
+     __| (_) | |___ _ _ / __| |  |_ _|
+    / _` | | | / _ \ ' \ (__| |__ | | 
+    \__,_|_|_|_\___/_||_\___|____|___|
+
+    Welcome to my online homepage
+
+    For a most typical web experince checkout my LinkedIn page:
+    https://www.linkedin.com/in/dillonoleary/
+
+    Type 'help' for a list of available commands
+
+
+  whois: 
+    # settings:
+    #   useLess: true
+    details:
+      name: "Dillon O'Leary"
+      profession: "Software Engineer"
+      location: "Seattle, WA"
+      email: "mail@dillonoleary.com"
+      homelink: "https://dillonoleary.com"
+      description: |
+              A friendly software engineer dedicated to social good
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+    - name: "github"
+      url: "https://github.com/DillonOLeary"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/dillonoleary/"
+
+  work:
+    details:
+    - jobTitle: Software Development Engineer
+      color: red
+      company: 'Amazon'
+      location: Seattle
+      date: April 2021 - March 2023
+      description: |
+        Led a documentation restructuring initiative to improve
+        the usability of a highly complex internal plaform and
+        built AWS tools for allow auditors to track functions
+        used to generate annual sustainability reports.
+
+    - jobTitle: Technical Lead - Volunteer
+      color: red
+      company: 'Digital Aid Seattle' 
+      location: Seattle
+      date: December 2023 - Present
+      description: |
+        Lead technical direction and support a team
+        of engineers building a Next.js application for the
+        Seattle Humane Animal Shelter.
+
+    - jobTitle: Software Engineer Consultant
+      color: red
+      company: 'Minnesota Independent School District 197'
+      location: Remote
+      date: October 2024 - Present
+      description: |
+        Building an open-source data pipeline to minimize manual
+        effort when extracting immunization records from the
+        Minnesota Department of Health and load them into the
+        student information system.
+
+  education:
+    details:
+    - courseName: Bachelor of Arts, University of Wisconsin-Madison
+      color: red
+      date: September 2016 - May 2020
+      description: |
+        Double Major: Computer Sciences and Psychology
+        GPA: 3.8
+
+    - courseName: Climatebase Fellow
+      date: September 2023 - December 2023
+      description: |
+        Highly competive 12-week industry-oriented educational
+        program for those in the climate space
+
+  skills:
+    settings:
+      useLess: true
+    details:
+    - name: Skill 1
+      percentage: 90
+      Description: you can add a description
+
+    - name: Skill 2
+      percentage: 30
+      #description: or you can leave it comented   
+
+    - name: Skill 3
+      color: blue
+      percentage: 50
+      description: Skill names can have colors too
+
+  softskills:
+    # settings:
+    #   useLess: true
+    details:
+    - name: SoftSkill 1
+      color: red
+      percentage: 80
+      #description:
+
+    - name:  SoftSkill 2
+      #color: 
+      percentage: 90
+      description: Description
+
+  languages:
+    # settings:
+    #   useLess: true
+    details:
+    - name: English
+      color: Blue
+      percentage: 50
+      #description: 
+
+    - name: Gibberish
+      percentage: 100
+      description: pasghettipigglywiggly
+
+
+  projects:
+    # settings:
+    #   useLess: true
+    details:
+    - title: Project Red
+      color: red
+      date: since 2019
+      link: https://example.com
+      description: Describing red stuff
+
+    - title: Project Blue
+      color: blue
+      date: since 2016
+      link: https://example.com/blue
+      #description: nothing to describe
+
+    - title: Project Default
+      date: Since 2017
+      link: https://example.com/default
+      #description: not there either
+
+  certifications:
+    # settings:
+    #   useLess: true
+    details:
+    - certName: Example Cert
+      company: Example Certifying Company
+      date: Date of Completion
+      badge: https://www.link.to.badge
+      #description: Lorem Ipsum
+  
+  misc: 
+    # settings:
+    #   useLess: true
+    commandName: newcommand
+    title: "This Section can have a different command name"
+    titleColor: teal
+    content: |
+          Here the title and the content can have different colors
+          The content can be multi
+          
+          line
+
+          And spaces       will be respected as well
+          This section will have the default command: misc
+          but you can name it something else with the property
+          commandName: <String>
+          Give it a shot and try and uncomment the line 
+          commandName: newcommand
+          now instead of misc you can execute the newcommand for this section
+          Auto completion will know it too! :D 
+
+    contentColor: orange

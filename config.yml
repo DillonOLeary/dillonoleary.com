@@ -43,9 +43,9 @@ params:
     / _` | | | / _ \ ' \ (__| |__ | | 
     \__,_|_|_|_\___/_||_\___|____|___|
 
-    Welcome to my online homepage
+    Welcome to my terminal-based homepage :)
 
-    For a most typical web experince checkout my LinkedIn page:
+    For a more typical web experince checkout my LinkedIn page:
     https://www.linkedin.com/in/dillonoleary/
 
     Type 'help' for a list of available commands
@@ -120,7 +120,7 @@ params:
       date: September 2023 - December 2023
       description: |
         Highly competive 12-week industry-oriented educational
-        program for those in the climate space
+        program for those in the climate space.
 
   skills:
     settings:
@@ -134,24 +134,25 @@ params:
       percentage: 30
       #description: or you can leave it comented   
 
-    - name: Skill 3
-      color: blue
-      percentage: 50
-      description: Skill names can have colors too
+    - name: Bartending
+      percentage: 60
+      description: |
+        Currently barbacking and serving at Murphy's pub,
+        training to make cocktails fast and consistently.
 
   softskills:
     # settings:
     #   useLess: true
     details:
-    - name: SoftSkill 1
+    - name: Leadership
       color: red
       percentage: 80
       #description:
 
-    - name:  SoftSkill 2
+    - name: Bartending
       #color: 
-      percentage: 90
-      description: Description
+      percentage: 60
+      description: Currently 
 
   languages:
     # settings:

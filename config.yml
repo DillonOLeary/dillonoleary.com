@@ -12,7 +12,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+pagination.pagerSize: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -128,9 +128,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "This site is under construction!."
+    title: "Dillon."
     subtitle: "I build software and communities."
-    content: "A friendly engineer developing software in the civic and climate space. I believe software engineering is about people first—strong communities results in better software."
+    content: "A friendly engineer developing software in the civic and climate space. I believe software engineering is about people first. Strong communities results in better software."
     image: /images/me.jpeg
     bottomImage:
       enable: true
@@ -154,7 +154,7 @@ params:
     title: "About Me"
     image: "/images/me-casual.jpeg"
     content: |-
-      I am a software engineer based out of Seattle. Formerly I worked at Amazon in sustainability, I now work independently in the civic and climate space. My skillset is primarily in backend engineering and community building, check out the project section below for more information on my current work. Outside of my software work I'm in training to bartend and love running on trails in Seattle.
+      I am a software engineer based out of Seattle. Formerly I worked at Amazon in sustainability, I now work independently in the civic and climate space. My skillset is primarily in backend engineering and community building, check out the project section below for more information on my current work!
 
     skills:
       enable: true

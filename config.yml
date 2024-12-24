@@ -196,7 +196,7 @@ params:
           enable: true
           url: "https://github.com/DillonOLeary/immunization-records-pipeline"
         content: |
-          Content
+          Building an ETL for immunization data from the Minnesota Department of Health to Infinite Campus. The goal is to reduce the burden of administrative tasks on district staff and make sure that out-of-date information doesn't prevent kids from going to school.
       
       - job: "Software Development Engineer"
         company: "Amazon"
@@ -252,50 +252,40 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Immunization Data Pipeline
+        content: An ETL for immunization data from the Minnesota Department of Health to Infinite Campus. Solo project now and hoping to grow an open-source community.
+        image: /images/projects/isd197-logo.jpeg
+        badges:
+          - "Python"
+          - "pandas"
+          - "Selenium"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/DillonOLeary/immunization-records-pipeline
+
+      - title: Seattle Humane App
+        content: A web app to improve the systems the Seattle Humane Animal Shelter uses to track incoming animals. I am the tech lead on a team of 10 engineers.
+        image: /images/projects/sh-app.jpeg
+        badges:
+          - "Next.js"
+          - "Supabase"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/digitalaidseattle/seattle-humane-app
+
+      - title: Deep Cite
+        content: A Chrome NPL extension to find the orginal source of claims made on the web. This extension was built in a capstone college course, and I was the team lead. The project continued growing after the course concluded. 
+        image: /images/projects/deep-cite.jpeg
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://www.youtube.com/watch?v=lNXbU5N-U4I&t=5s
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
+          - "Python"
+          - "spaCy"
+          - "Flask"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/connorjoleary/DeepCite
 
   #Contact
   contact:

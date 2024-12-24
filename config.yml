@@ -264,7 +264,7 @@ params:
             url: https://github.com/DillonOLeary/immunization-records-pipeline
 
       - title: Seattle Humane App
-        content: A web app to improve the systems the Seattle Humane Animal Shelter uses to track incoming animals. I am the tech lead on a team of 10 engineers.
+        content: A web app to improve the systems the Seattle Humane Animal Shelter uses to track incoming animals. I am the tech lead on a team of 10.
         image: /images/projects/sh-app.jpeg
         badges:
           - "Next.js"
@@ -291,9 +291,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:mail@dillonoleary.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'

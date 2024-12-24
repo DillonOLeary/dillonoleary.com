@@ -1,7 +1,7 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
 title: "Dillon's Homepage"
-theme: hugo-profile
+theme: ["hugo-cloak-email", "hugo-profile"]
 
 outputs:
   home:
@@ -130,7 +130,7 @@ params:
     intro: "Hi, my name is"
     title: "Dillon."
     subtitle: "I build software and communities."
-    content: "A friendly engineer developing software in the civic and climate space. I believe software engineering is about people first. Strong communities results in better software."
+    content: "A friendly engineer developing software in the civic and climate space. I believe software engineering is about people first. Strong communities result in better software."
     image: /images/me.jpeg
     bottomImage:
       enable: true
@@ -154,11 +154,11 @@ params:
     title: "About Me"
     image: "/images/me-casual.jpeg"
     content: |-
-      I am a software engineer based out of Seattle. Formerly I worked at Amazon in sustainability, I now work independently in the civic and climate space. My skillset is primarily in backend engineering and community building, check out the project section below for more information on my current work!
+      I am a software engineer based in Seattle. Formerly, I worked at Amazon in sustainability, but I now work independently in the civic and climate space. My skillset is primarily in backend engineering and community building. Check out the project section below for more information on my current work!
 
     skills:
       enable: true
-      title: "Here are a few technologies I've work with:"
+      title: "Here are a few technologies I've worked with:"
       items:
         - "Python"
         - "AWS"
@@ -182,7 +182,7 @@ params:
           enable: true
           url: "https://github.com/digitalaidseattle/seattle-humane-app"
         content: |
-          I'm currently volunteering as a tech lead for Digital Aid Seattle, leading the organization's pioneering venture with Seattle Humane. We are working to improve the systems they use to track incoming animals. In my work I:
+          I volunteer as a tech lead for Digital Aid Seattle, leading the organization's pioneering venture with Seattle Humane. We are working to improve the systems they use to track incoming animals. In my work I:
           - Drive project direction of the full-stack application using Next.js, Vercel, and Supabase.
           - Lead meetings and coordinate a team of volunteer engineers.
 
@@ -205,8 +205,8 @@ params:
         info:
           enable: false
         content: |
-          I worked on two teams at Amazon. I started on the ordering team, but soon I switched to sustainabilty. That was the start of my career shift towards work in climate tech. While I was at Amazon, I did the following:
-          - Led a documentation restructuring initiative to improve usability of Amazon's complex platform, reducing on-call burden for platform engineers.
+          I worked on two teams at Amazon. I started on the ordering team, but soon I switched to sustainability. That was the start of my career shift towards work in climate tech. While I was at Amazon, I did the following:
+          - Led a documentation restructuring initiative to improve the usability of Amazon's complex platform, reducing the on-call burden for platform engineers.
           - Designed and developed a Python-based tool for auditing AWS functions that calculate global carbon emissions, supporting Amazon's sustainability report.
 
   # Education
@@ -229,23 +229,23 @@ params:
   achievements:
     enable: false
     # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+    # items:
+    #   - title: Google kickstart runner
+    #     content: I solved all problems with optimal solution.
+    #     url: https://example.com
+    #     image: /images/achievment.jpg
+    #   - title: Facebook Hackathon Winner
+    #     content: Developed a product using Artificial Intelligence.
+    #     image: /images/achievment.jpg
+    #   - title: Hugo Profile
+    #     content: Developed a theme and getting 1K+ downloads per month.
+    #     url: "https://github.com/gurusabarish/hugo-profile"
+    #     image: /images/achievment.jpg
+    #   - title: Microsoft Imagine Runner
+    #     content: We are developed a product which can help others.
+    #   - title: Google Summer of Code
+    #     content: Contributed to a open source project.
+    #     url: https://example.com
 
   # projects
   projects:
@@ -274,7 +274,7 @@ params:
             url: https://github.com/digitalaidseattle/seattle-humane-app
 
       - title: Deep Cite
-        content: A Chrome NPL extension to find the orginal source of claims made on the web. This extension was built in a capstone college course, and I was the team lead. The project continued growing after the course concluded. 
+        content: A Chrome NPL extension to find the original source of claims made on the web. This extension was built in a capstone college course, and I was the team lead. The project continued growing after the course concluded.
         image: /images/projects/deep-cite.jpeg
         featured:
           name: Demo
@@ -291,9 +291,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-    btnName: Mail me
-    btnLink: mailto:mail@dillonoleary.com
+    content: Always happy to chat, reach out to me at {{< cloakemail "mail@dillonoleary.com" >}}
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -309,11 +307,8 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/DillonOLeary
+      linkedin: https://www.linkedin.com/in/dillonoleary/
 
   # List pages like blogs and posts
   listPages:

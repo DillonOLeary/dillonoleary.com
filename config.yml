@@ -130,7 +130,7 @@ params:
     intro: "Hi, my name is"
     title: "Dillon."
     subtitle: "I build software and relationships."
-    content: "A friendly engineer developing software in the civic and climate space. I believe software engineering is about people first. Strong teams result in better software."
+    content: "A friendly engineer developing civic and climate software. I believe software engineering is about people first. Strong teams build better software."
     image: /images/me.jpeg
     bottomImage:
       enable: true
@@ -154,11 +154,13 @@ params:
     title: "About Me"
     image: "/images/me-casual.jpeg"
     content: |-
-      I am a software engineer based in Seattle. Formerly, I worked at Amazon in sustainability, but I now work independently in the civic and climate space. My skillset is primarily in backend engineering and community building. Check out the project section below for more information on my current work!
+      I am a software engineer based in Seattle. Formerly a sustainability specialist at Amazon, I now work independently as a backend engineer in the civic and climate space.
+
+      Relationship building is core to all my work. This means building trust through clear expectations and visibility with clients, setting office hours and leading one-on-ones with my team, and planning 60+ person org events at Amazon.
 
     skills:
       enable: true
-      title: "Here are a few technologies I've worked with:"
+      # title: "Here are some of the technologies I've worked with:"
       items:
         - "Python"
         - "AWS"
@@ -182,7 +184,9 @@ params:
           enable: true
           url: "https://github.com/digitalaidseattle/seattle-humane-app"
         content: |
-          I volunteer as a tech lead for Digital Aid Seattle, leading the organization's pioneering venture with Seattle Humane. We are working to improve the systems they use to track incoming animals. In my work I:
+          I volunteer as a tech lead for Digital Aid Seattle, leading the organization's pioneering venture with Seattle Humane. We are working to improve the systems they use to track incoming animals.
+          
+          On this team, I:
           - Drive project direction of the full-stack application using Next.js, Vercel, and Supabase.
           - Lead meetings and coordinate a team of volunteer engineers.
 
@@ -205,7 +209,9 @@ params:
         info:
           enable: false
         content: |
-          I worked on two teams at Amazon. I started on the ordering team, but soon I switched to sustainability. That was the start of my career shift towards work in climate tech. While I was at Amazon, I did the following:
+          I worked on two teams at Amazon. I started on the ordering team, then soon switched to sustainability. That was the start of my career shift towards work in climate tech.
+          
+          While I was at Amazon, I did the following:
           - Led a documentation restructuring initiative to improve the usability of Amazon's complex platform, reducing the on-call burden for platform engineers.
           - Designed and developed a Python-based tool for auditing AWS functions that calculate global carbon emissions, supporting Amazon's sustainability report.
 
@@ -220,7 +226,6 @@ params:
           name: "University of Wisconsin-Madison"
           url: "https://wisc.edu"
         date: "2016 - 2020"
-        GPA: "3.8 out of 4.0"
         content: |-
           - Double Major: Computer Sciences and Psychology
           - Awards: Graduated with Distinction, Distinction in the Major for both majors
@@ -291,7 +296,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: Always happy to chat, reach out to me at {{< cloakemail "mail@dillonoleary.com" >}}
+    content: Always happy to chat {{< cloakemail "mail@dillonoleary.com" >}}
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'

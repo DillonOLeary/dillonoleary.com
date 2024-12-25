@@ -56,7 +56,7 @@ params:
   title: "Dillon's Homepage"
   description: Profile highlighting Dillon's work
   # staticPath: ""  # The path to serve the static files from
-  # favicon: "/do-4.png"
+  favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -129,8 +129,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Dillon."
-    subtitle: "I build software and communities."
-    content: "A friendly engineer developing software in the civic and climate space. I believe software engineering is about people first. Strong communities result in better software."
+    subtitle: "I build software and relationships."
+    content: "A friendly engineer developing software in the civic and climate space. I believe software engineering is about people first. Strong teams result in better software."
     image: /images/me.jpeg
     bottomImage:
       enable: true

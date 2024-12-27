@@ -258,7 +258,7 @@ params:
     # title: "Custom Name"
     items:
       - title: Immunization Data Pipeline
-        content: An ETL for immunization data from the Minnesota Department of Health to Infinite Campus. Solo project now and hoping to grow an open-source community.
+        content: A data pipeline built to minimize admin work when dealing with immunization records. Solo project now and hoping to grow an open-source community.
         image: /images/projects/isd197-logo.jpeg
         badges:
           - "Python"
@@ -279,7 +279,7 @@ params:
             url: https://github.com/digitalaidseattle/seattle-humane-app
 
       - title: Deep Cite
-        content: A Chrome NPL extension to find the original source of claims made on the web. This extension was built in a capstone college course, and I was the team lead. The project continued growing after the course concluded.
+        content: A Chrome NLP extension to find the original source of claims made on the web. This extension was built in a capstone college course, and I was the team lead. The project continued growing after the course concluded.
         image: /images/projects/deep-cite.jpeg
         featured:
           name: Demo

@@ -130,7 +130,7 @@ params:
     intro: "Hi, my name is"
     title: "Dillon."
     subtitle: "I build software and relationships."
-    content: "A friendly engineer developing civic and climate software. I believe software engineering is about people first. Strong teams build better software."
+    content: "I'm a friendly engineer developing civic and climate software. I believe software engineering is about people first. Strong teams build better software."
     image: /images/me.jpeg
     bottomImage:
       enable: true
@@ -156,7 +156,7 @@ params:
     content: |-
       I am a software engineer based in Seattle. Formerly a sustainability specialist at Amazon, I now work independently as a backend engineer in the civic and climate space.
 
-      Relationship building is core to all my work. This means building trust through clear expectations and visibility with clients, setting office hours and leading one-on-ones with my team, and planning 60+ person org events at Amazon.
+      Relationship building is core to all of my work. This means building trust through clear expectations and visibility with clients, setting office hours and leading one-on-ones with my team, and planning 60+ person org events at Amazon.
 
     skills:
       enable: true
